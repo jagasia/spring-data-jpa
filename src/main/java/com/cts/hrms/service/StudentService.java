@@ -51,4 +51,9 @@ public class StudentService {
 		return s;
 	}
 	
+	public List<Student> findByLN(String lastName)
+	{
+		return sr.findStudentsByLastName(lastName);
+	}
+	
 }
